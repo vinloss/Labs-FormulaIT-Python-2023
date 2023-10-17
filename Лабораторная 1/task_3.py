@@ -1,7 +1,8 @@
 list_players = ["Маша", "Петя", "Саша", "Оля", "Кирилл", "Коля"]
 
-lenght = len(list_players)
-komanda_1 = list_players[:3]
-komanda_2 = list_players[3:6]
+length = len(list_players) // 2
+komanda_1 = list_players[:length]
+komanda_2 = list_players[length:]
 print(komanda_1)
 print(komanda_2)
+
